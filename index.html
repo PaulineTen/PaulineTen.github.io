@@ -1,7 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schreinerei Tentunian</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset für den Body */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Inline CSS für das Bild */
+        .intro img {
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            margin: 0;
+        }
+
+        /* Textstil für Überschrift */
+        h2 {
+            color: #000000;
+            line-height: 1.5;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        /* Neue CSS-Klasse für die Textbox */
+        .text-container {
+            max-width: 1000px; /* Maximale Breite auf 1000px setzen */
+            margin: 0 auto; /* Zentriert die Box */
+            padding: 0; /* Kein Padding */
+        }
+
+        /* Textstil für Absätze */
+        .text-container p {
+            color: #555; /* Grau für den Text */
+            line-height: 1.6; /* Zeilenhöhe erhöhen */
+            margin-bottom: 20px; /* Abstand unter den Absätzen */
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Schreinerei Tentunian</h1>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="materialien.html">Materialien</a>
+            <a href="impressum.html">Impressum</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="https://eichhorn-fenster.de/wp-content/uploads/Schreinerei.jpg" alt="Beispielbild einer Schreinerei">
+            <h2>Willkommen bei der Schreinerei Tentunian</h2>
+            <div class="text-container">
+                <p>Wir bieten maßgefertigte Möbel und Inneneinrichtungen nach Ihren Wünschen. Die Tradition unserer Schreinerei hat ihre Wurzeln in Armenien, wo Handwerkskunst und Detailverliebtheit seit Generationen geschätzt werden. Familie Tentunian setzt viel Wert auf handwerkliche Fertigung und individuelle Anpassungen, um einzigartige und qualitativ hochwertige Möbelstücke zu schaffen, die sowohl funktional als auch ästhetisch ansprechend sind.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
