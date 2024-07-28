@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&family=Shippori+Mincho:wght@400&display=swap');
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Shippori Mincho', serif; /* Setze die Schriftart für den Titel */
+    font-size: 42px; /* Setze die Schriftgröße auf 48px */
+    font-weight: 400; /* Setze die Schriftgewichtung auf 400 */
+    color: #000000; /* Behalte die bestehende Farbe für den Titel */
+}
+
+h2, h3, h4 {
+    color: #000000;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.leistung img {
+    width: 400px; /* Setzt die Breite auf 400 Pixel */
+    height: 400px; /* Setzt die Höhe auf 400 Pixel */
+    object-fit: cover; /* Stellt sicher, dass das Bild das Quadrat ausfüllt */
+    border-radius: 5px; /* Abgerundete Ecken für die Bilder */
+}
