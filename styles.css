@@ -25,10 +25,10 @@ main {
 }
 
 h1 {
-    font-family: 'Shippori Mincho', serif; /* Setze die Schriftart für den Titel */
-    font-size: 42px; /* Setze die Schriftgröße auf 48px */
-    font-weight: 400; /* Setze die Schriftgewichtung auf 400 */
-    color: #000000; /* Behalte die bestehende Farbe für den Titel */
+    font-family: 'Shippori Mincho', serif; 
+    font-size: 42px; 
+    font-weight: 400; 
+    color: #000000; 
 }
 
 h2, h3, h4 {
@@ -74,8 +74,8 @@ footer {
 }
 
 .leistung img {
-    width: 400px; /* Setzt die Breite auf 400 Pixel */
-    height: 400px; /* Setzt die Höhe auf 400 Pixel */
-    object-fit: cover; /* Stellt sicher, dass das Bild das Quadrat ausfüllt */
-    border-radius: 5px; /* Abgerundete Ecken für die Bilder */
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px; 
 }
